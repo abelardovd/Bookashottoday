@@ -491,6 +491,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-icons",
+            "version": "^3.1.0"
+          },
+          {
             "name": "styled-components",
             "version": "^3.4.9"
           }
@@ -613,12 +617,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-03T02:42:07.467Z",
+      "buildTime": "2018-10-03T02:46:00.598Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a2c6deb3656a6a9afb3b6c6b028f3362",
+        "contentDigest": "2809f3fb03065b9a11eaba7d76e007f3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -706,7 +710,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b377cc9129db1ef867b1f8ebe2f42d06"
+    "PLUGINS_HASH": "ae06057b60fc44c10c0ba8fd4f45eb75"
   },
   "componentDataDependencies": {
     "nodes": {
