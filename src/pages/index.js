@@ -9,6 +9,9 @@ import imgEngagements2 from '../images/imgEngagements.jpg'
 import imgPortrait3 from '../images/imgPortraits.jpg'
 
 
+
+
+
 const Title = styled.h1`
   font-size: 3.2em;
   text-align: center;
@@ -192,6 +195,7 @@ const IndexPage = () => (
     <Image3 src={imgPortrait3} alt='something here'/>
     <Par3>Portait</Par3>
     <Par3mini>A Photographic Story.</Par3mini>
+    
     
     
     
