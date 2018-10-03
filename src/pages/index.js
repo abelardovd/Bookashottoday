@@ -65,8 +65,8 @@ const Par2mini = styled.h1`
   text-align: center;
   color: whitesmoke;
   position: absolute;
-    left: 100px;
-    top: 690px;
+    left: 150px;
+    top: 685px;
     
     
     z-index: 1;
@@ -91,8 +91,8 @@ padding: 100px 15px;
   text-align: center;
   color: whitesmoke;
   position: absolute;
-    left: 600px;
-    top: 1210px;
+    left: 390px;
+    top: 1215px;
    
     
     z-index: 1;
