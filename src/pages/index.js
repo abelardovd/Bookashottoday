@@ -14,8 +14,8 @@ const Title = styled.h1`
   text-align: center;
   color:  #404040;
   position: absolute;
-  left: 330px;
-    top: -5px;
+  left: 280px;
+    top: -11px;
 `
 const Par1 = styled.h1`
 padding: 100px 15px;
@@ -31,16 +31,43 @@ padding: 100px 15px;
     z-index: 1;
 `
 
-const Par2 = styled.h1`
-padding: 100px 15px;
+const Par1mini = styled.h1`
 
-  font-size: 5.9em;
+
+  font-size: 1.9em;
   text-align: center;
   color: whitesmoke;
   position: absolute;
-    left: 330px;
+    left: 600px;
+    top: 275px;
+    
+    
+    z-index: 1;
+`
+
+const Par2 = styled.h1`
+padding: 100px 15px;
+
+  font-size: 4.2em;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+    left: 480px;
     top: 550px;
    
+    
+    z-index: 1;
+`
+const Par2mini = styled.h1`
+
+
+  font-size: 1.9em;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+    left: 100px;
+    top: 690px;
+    
     
     z-index: 1;
 `
@@ -53,6 +80,19 @@ padding: 100px 15px;
   position: absolute;
     left: 40px;
     top: 1150px;
+   
+    
+    z-index: 1;
+`
+const Par3mini = styled.h1`
+padding: 100px 15px;
+
+  font-size: 1.9em;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+    left: 600px;
+    top: 1210px;
    
     
     z-index: 1;
@@ -145,10 +185,13 @@ const IndexPage = () => (
     <Title>Book A Shoot Today</Title>
     <Image src={imgWedding1} alt='something here'/>
     <Par1>weddings</Par1>
+    <Par1mini>Capture your big moment.</Par1mini>
     <Image2 src={imgEngagements2} alt='something here'/>
     <Par2>Engagements</Par2>
+    <Par2mini>Every Detail. Forever.</Par2mini>
     <Image3 src={imgPortrait3} alt='something here'/>
     <Par3>Portait</Par3>
+    <Par3mini>A Photographic Story.</Par3mini>
     
     
     
