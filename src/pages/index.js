@@ -17,9 +17,7 @@ const Title = styled.h1`
   font-size: 3.2em;
   text-align: center;
   color:  #404040;
-  position: absolute;
-  left: 280px;
-    top: -11px;
+  
 `
 const Par1 = styled.h1`
 padding: 100px 15px;
@@ -102,7 +100,7 @@ padding: 100px 15px;
     z-index: 1;
 `
 
-const Image = styled.img`
+const Image1 = styled.img`
     background-color: #dcdcd4;
     margin-left: auto;
     margin-right: auto;
@@ -190,8 +188,8 @@ const IndexPage = () => (
   
   <Layout>
     <Title>Book A Shoot Today</Title>
-    <Image src={imgWedding1} alt='something here'/>
-    <Par1>weddings</Par1>
+    <Image1 src={imgWedding1} alt='something here'/>
+    <Par1>weddingss</Par1>
     <Par1mini>Capture your big moment.</Par1mini>
     <Image2 src={imgEngagements2} alt='something here'/>
     <Par2>Engagements</Par2>
