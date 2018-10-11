@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import {FaFacebook,FaTwitter} from 'react-icons/fa'
+import {FaPhone,FaFacebook,FaInstagram,FaEnvelope} from 'react-icons/fa'
 import Layout from '../components/layout'
 
 
@@ -132,56 +132,12 @@ const Image3 = styled.img`
     left: 0px;
     top: 1000px;
 `
-const Button = styled.a`
-
-display: inline-block;
-    position: absolute;
-    left: 250px;
-    top: 340px;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 50px 30px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: gray;
-    border-image: initial;
-    width: 15%;
-    height: 10%;
-    :hover {
-      background-color: #555555;
-      color: white;
-    }
-    
-    
-`
-
-const Button2 = styled.a`
-
-display: inline-block;
-    position: absolute;
-    left: 750px;
-    top: 700px;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 50px 30px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: gray;
-    border-image: initial;
-    width: 15%;
-    height: 10%;
-    :hover {
-      background-color: #555555;
-      color: white;
-    }
-    
-    
-`
-
 const Social = styled.div`
-
+position: absolute;
+  left: 750px;
+  top: 1600px;
+  font-size: 1.9em;
+  
 `
 
 const IndexPage = () => (
@@ -201,8 +157,11 @@ const IndexPage = () => (
     
     
     <Social>
+      <FaPhone/>
       <FaFacebook/>
-      <FaTwitter/>
+      <FaInstagram/>
+      <FaEnvelope/>
+      
     </Social>
     
     
