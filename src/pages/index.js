@@ -1,161 +1,115 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
-import {FaPhone,FaFacebook,FaInstagram,FaEnvelope} from 'react-icons/fa'
 import Layout from '../components/layout'
+import {FaPhone,FaFacebook,FaInstagram,FaEnvelope} from 'react-icons/fa'
 
 
-import imgWedding1 from '../images/imgWeddings.jpg'
-import imgEngagements2 from '../images/imgEngagements.jpg'
-import imgPortrait3 from '../images/imgPortraits.jpg'
+import imgWeddings from '../images/imgWeddings.jpg'
+import imgEngagements from '../images/imgEngagements.jpg'
+import imgPortraits from '../images/imgPortraits.jpg'
+import imglogo from '../images/logo.png'
 
+const Content = styled.div`
 
-
-
-
+  background-color:  rgba(215, 214, 214, 0.988);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+`
 const Title = styled.h1`
-  font-size: 3.2em;
+  font-size: 1.5em;
   text-align: center;
-  color:  #404040;
+  color: black;
   
 `
-const Par1 = styled.h1`
-padding: 100px 15px;
-
-  font-size: 5.9em;
+const Title1 = styled.h1`
+  font-size: 1.5em;
   text-align: center;
-  color: whitesmoke;
-  position: absolute;
-    left: 100px;
-    top: 110px;
-    
-    
-    z-index: 1;
-`
-
-const Par1mini = styled.h1`
-
-
-  font-size: 1.9em;
-  text-align: center;
-  color: whitesmoke;
+  color: white;
   position: absolute;
     left: 600px;
-    top: 275px;
-    
-    
-    z-index: 1;
+    top: 700px;
 `
-
-const Par2 = styled.h1`
-padding: 100px 15px;
-
-  font-size: 4.2em;
+const Title2 = styled.h1`
+  font-size: 1.5em;
   text-align: center;
-  color: whitesmoke;
+  color: white;
   position: absolute;
-    left: 480px;
-    top: 550px;
-   
-    
-    z-index: 1;
+    left: 600px;
+    top: 1600px;
 `
-const Par2mini = styled.h1`
-
-
-  font-size: 1.9em;
+const Title3 = styled.h1`
+  font-size: 1.5em;
   text-align: center;
-  color: whitesmoke;
+  color: white;
   position: absolute;
-    left: 150px;
-    top: 685px;
-    
-    
-    z-index: 1;
+    left: 600px;
+    top: 2800px;
 `
-const Par3 = styled.h1`
-padding: 100px 15px;
+const Imagelogo = styled.img`
+ background-color:  rgba(215, 214, 214, 0.988);
 
-  font-size: 5.9em;
-  text-align: center;
-  color: whitesmoke;
-  position: absolute;
-    left: 40px;
-    top: 1150px;
-   
-    
-    z-index: 1;
-`
-const Par3mini = styled.h1`
-padding: 100px 15px;
-
-  font-size: 1.9em;
-  text-align: center;
-  color: whitesmoke;
-  position: absolute;
-    left: 390px;
-    top: 1215px;
-   
-    
-    z-index: 1;
-`
-
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+    height: 7%;
+  `
 const Image1 = styled.img`
-    background-color: #dcdcd4;
+
+display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    left: 0px;
-    top: 50px;
+    width: 80%;
+    height: 80%;   
 `
-
 const Image2 = styled.img`
-    background-color: #dcdcd4;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    left: 0px;
-    top: 550px;
-`
 
-const Image3 = styled.img`
-    background-color: #dcdcd4;
+display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    left: 0px;
-    top: 1000px;
+    width: 80%;
+    height: 80%;
+   
+    
 `
-const Social = styled.div`
-position: absolute;
-  left: 750px;
-  top: 1600px;
-  font-size: 1.9em;
-  
-`
+const Image3 = styled.img`
+
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    
+   `
+   const Social = styled.div`
+   position: absolute;
+
+     font-size: 2.5em;
+     
+   `
 
 const IndexPage = () => (
-  
+
   <Layout>
+    <Imagelogo src={imglogo} alt='something here'/>
     <Title>Book A Shoot Today</Title>
-    <Image1 src={imgWedding1} alt='something here'/>
-    <Par1>weddingss</Par1>
-    <Par1mini>Capture your big moment.</Par1mini>
-    <Image2 src={imgEngagements2} alt='something here'/>
-    <Par2>Engagements</Par2>
-    <Par2mini>Every Detail. Forever.</Par2mini>
-    <Image3 src={imgPortrait3} alt='something here'/>
-    <Par3>Portait</Par3>
-    <Par3mini>A Photographic Story.</Par3mini>
+    <Content>
     
+    <Image1 src={imgWeddings} alt='something here'/>
+    <Title1>Weddings Capture your big moment</Title1>
+    </Content>
+    <Content>
+    <Image2  src={imgEngagements} alt='something here' />
+    <Title2>Every Detail For ever Engagements</Title2>
     
-    
+    </Content>
+
+    <Content>
+    <Image3 src={imgPortraits} alt='something here'/> 
+    <Title3>Portraits A Photographic Story</Title3>
+    </Content>
     <Social>
       <FaPhone/>
       <FaFacebook/>
@@ -163,6 +117,9 @@ const IndexPage = () => (
       <FaEnvelope/>
       
     </Social>
+    
+    
+    
     
     
   </Layout>
