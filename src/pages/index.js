@@ -48,7 +48,7 @@ const Title3 = styled.h1`
     top: 2800px;
 `
 const Imagelogo = styled.img`
- background-color:  rgba(215, 214, 214, 0.988);
+ background-color: transparent;
 
 display: block;
     margin-left: auto;
@@ -85,6 +85,9 @@ display: block;
    `
    const Social = styled.div`
    position: absolute;
+   display: flex;
+  align-items: center;
+  justify-content: space-around; 
 
      font-size: 2.5em;
      
@@ -110,6 +113,8 @@ const IndexPage = () => (
     <Image3 src={imgPortraits} alt='something here'/> 
     <Title3>Portraits A Photographic Story</Title3>
     </Content>
+    
+    
     <Social>
       <FaPhone/>
       <FaFacebook/>
