@@ -617,12 +617,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-11T23:44:26.406Z",
+      "buildTime": "2018-10-12T02:25:54.270Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f947fcbd1902ab06f845401821d54b3d",
+        "contentDigest": "a8ea9c48d8851ea499f733cfceaccf3e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

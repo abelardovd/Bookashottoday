@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 import {FaPhone,FaFacebook,FaInstagram,FaEnvelope} from 'react-icons/fa'
+import Text from 'react-native'
 
 
 import imgWeddings from '../images/imgWeddings.jpg'
@@ -93,6 +94,13 @@ display: block;
      
    `
 
+
+  
+
+  
+
+
+
 const IndexPage = () => (
 
   <Layout>
@@ -102,6 +110,7 @@ const IndexPage = () => (
     
     <Image1 src={imgWeddings} alt='something here'/>
     <Title1>Weddings Capture your big moment</Title1>
+    
     </Content>
     <Content>
     <Image2  src={imgEngagements} alt='something here' />
@@ -122,6 +131,7 @@ const IndexPage = () => (
       <FaEnvelope/>
       
     </Social>
+
     
     
     
