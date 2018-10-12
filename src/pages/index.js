@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 import {FaPhone,FaFacebook,FaInstagram,FaEnvelope} from 'react-icons/fa'
-import Text from 'react-native'
+
 
 
 import imgWeddings from '../images/imgWeddings.jpg'
